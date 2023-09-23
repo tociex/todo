@@ -1,0 +1,108 @@
+* {
+	font-family: 'Lato';
+}
+
+.navbar{
+  background-color: #16abf8;
+  box-shadow: 0 4px 10px rgba(0,0,0,.1);
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+}
+
+.hidden{
+	display:none;
+}
+
+.box {
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-top-color: #ddd;
+	border-right-color: #ddd;
+	border-bottom-color: #ddd;
+	border-left-color: #ddd;
+	border-radius: 4px;
+
+	margin: 20px 0;
+	padding: 40px 10px;
+}
+
+.box-title {
+   margin-top: -2em;
+  margin-bottom: 6em;
+}
+
+.box-btn{
+	float:right;
+}
+.right{
+	float:right;
+}
+
+.box-text {
+  font-size: 15px;
+  line-height: 30px;
+  margin: 20px 0;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255/var(--tw-text-opacity));
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+#input-panel .panel-body {
+	padding: 0;
+}
+#input-panel input[name=todo-input] {
+	width: 100%;
+	display: block;
+	padding: 15px;
+	text-align: center;
+	outline: none;
+	margin-bottom: 20px;
+	background-color: #FFF;
+	border: 1px solid #DDD;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+	box-shadow: 0 1px 1px rgba(0,0,0,.05);
+	font-size: 12px;
+}
+#todo-container {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#todo-container li {
+	position: relative;
+	display: block;
+	padding: 8px 5px;
+	text-align: left;
+	font-weight: 400;
+	font-size: 15px;
+}
+#todo-container span, #todo-container .action {
+	display: inline-block;
+	color: rgba(0,0,0,.7);
+}
+#todo-container .action {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.edit-btn,.done-btn {
+	background:none;
+	border:none;
+	font-size: 14px;
+	outline: none;
+}
